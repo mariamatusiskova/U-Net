@@ -75,6 +75,7 @@ val_writer = SummaryWriter(log_dir='./data/val_log_data/')
 
 start_epoch = 0
 num_epochs = config.NUM_EPOCHS
+#
 
 # Each epoch runs through the entire dataset using mini-batches.
 for epoch in range(start_epoch + 1, num_epochs + 1):
